@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <title>CoffeeShop</title>
+  </head>
+  <body>
+    <div class="bg-green-200 grid lg:grid-cols-2">
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24">
+        <img class="h-32" src="./images/logo_coffee.png" alt="logo" />
+        <img
+          class="
+            mt-6
+            rounded-lg
+            shadow-xl
+            sm:mt-8 sm:h-64 sm:w-full sm:object-cover
+            object-center
+            lg:hidden
+          "
+          src="./images/pic1.jpg"
+          alt=""
+        />
+        <h1
+          class="
+            mt-6
+            text-2xl
+            font-bold font-satisfy
+            sm:mt-8 sm:text-6xl
+            lg:text-5xl
+            animate__animated animate__bounce
+          "
+        >
+          Best Coffee In Town
+        </h1>
+        <p
+          class="
+            mt-2
+            text-gray-600
+            font-semibold font-nunito
+            sm:mt-4 sm:text-xl
+            animate__heartBeat
+          "
+        >
+          Enjoy freshly roasted, responsibly sourced Ozone Coffee, delivered
+          directly to your door🏠. Our flexible subscription service lets you
+          choose from pods, beans or ground coffee when you want it. Pause or
+          cancel at any time, includes free India delivery.
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            class="
+              animate__animated animate__bounce
+              inline-block
+              px-5
+              py-3
+              text-sm
+              bg-indigo-500
+              text-white
+              uppercase
+              font-semibold
+              rounded-lg
+              shadow-lg
+              tracking-wider
+              font-archivo
+              sm:text-base sm:hover:bg-green-400
+              hover:bg-indigo-400
+              transition
+              motion-safe:hover:scale-110
+              hover:-translate-y-0.5
+              transform
+              focus:outline-none
+              focus:ring
+              focus:ring-opacity-50
+              focus:ring-indigo-500
+              active:bg-indigo-600
+            "
+            href="https://prabhakar9107.github.io/"
+            >Visit Store</a
+          >
+          <button
+            class="
+              mt-2
+              bg-blue-500
+              hover:bg-blue-700
+              text-white
+              font-bold
+              uppercase
+              py-3
+              px-5
+              rounded-lg
+              active:bg-green-600
+              animate__animated animate__bounce
+            "
+          >
+            Buy Coffee ☕
+          </button>
+        </div>
+      </div>
+      <div class="hidden relative lg:block">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="./images/pic1.jpg"
+          alt="button"
+        />
+      </div>
+    </div>
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <h2
+          class="
+            animate__animated animate__flash
+            text-center
+            mb-16
+            text-2xl
+            font-bold font-nunito
+          "
+        >
+          Products We Serve...
+        </h2>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/blackcoffee.jpg "
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Beverages
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Filter Coffee
+              </h2>
+              <p class="mt-1">$16.00</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/cover.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Beverages
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Black Coffee
+              </h2>
+              <p class="mt-1">$21.15</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/Lemon_Cookie_Recipe-1_400x320.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Cookies
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Lemon Cookie
+              </h2>
+              <p class="mt-1">$12.00</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/cappucino.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Beverages
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Cappucino
+              </h2>
+              <p class="mt-1">$18.40</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/Onion_and_Cheese_Pepper_Sandwich_Recipe_400x320.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Snacks
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Onion&Cheese Pepper Sandwich
+              </h2>
+              <p class="mt-1">$16.00</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/brew.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                CATEGORY
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                COLD BREW COFFEE
+              </h2>
+              <p class="mt-1">$21.15</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/oats_dates_400x320.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Snacks
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Oats dates
+              </h2>
+              <p class="mt-1">$12.00</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="
+                  animate__animated animate__shakeX
+                  object-cover object-center
+                  w-96
+                  h-full
+                  block
+                "
+                src="./images/mochhe.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Beverages
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                CAFFÈ MOCHA
+              </h2>
+              <p class="mt-1">$28.40</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-gray-600 body-font bg-green-300">
+      <div class="container px-5 py-24 mx-auto">
+        <h2
+          class="
+            text-2xl text-center text-gray-900
+            mb-6
+            font-archivo
+            uppercase
+            font-bold
+          "
+        >
+          Testimonial
+        </h2>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="
+                  w-40
+                  h-40
+                  mb-8
+                  object-cover object-center
+                  rounded-full
+                  inline-block
+                  border-2 border-gray-200
+                  bg-gray-100
+                "
+                src="./images/person1.jpg"
+              />
+              <p
+                class="
+                  animate__animated animate__swing
+                  leading-relaxed
+                  font-nunito font-bold
+                "
+              >
+                " Recently walked into this place heading to the English Market
+                from the Clayton hotel. I would never write a review about a
+                coffee shop but in this case the service was so crazy good and
+                the food was excellent. Well worth the visit."
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"
+              ></span>
+              <h2
+                class="
+                  text-gray-900
+                  font-medium
+                  title-font
+                  tracking-wider
+                  text-sm
+                "
+              >
+                Julia FunIllinois
+              </h2>
+              <p class="text-gray-500">Batavia, Illinois</p>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="
+                  w-40
+                  h-40
+                  mb-8
+                  object-cover object-center
+                  rounded-full
+                  inline-block
+                  border-2 border-gray-200
+                  bg-gray-100
+                "
+                src="./images/person2.jpg"
+              />
+              <p
+                class="
+                  animate__animated animate__swing
+                  leading-relaxed
+                  font-nunito font-bold
+                "
+              >
+                "I fell in in love with this cute café and its staff the first
+                time I popped in. Vast variety of snacks and beverages,
+                vegetarian option available, very nice and welcoming
+                atmosphere."
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"
+              ></span>
+              <h2
+                class="
+                  text-gray-900
+                  font-medium
+                  title-font
+                  tracking-wider
+                  text-sm
+                "
+              >
+                Trev Mac
+              </h2>
+              <p class="text-gray-500">Kilmallock, Ireland</p>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="
+                  w-40
+                  h-40
+                  mb-8
+                  object-cover object-center
+                  rounded-full
+                  inline-block
+                  border-2 border-gray-200
+                  bg-gray-100
+                "
+                src="./images/person3.jpg"
+              />
+              <p
+                class="
+                  animate__animated animate__swing
+                  leading-relaxed
+                  font-bold font-nunito
+                "
+              >
+                " They made a great cappuccino that was customized. This is not
+                a dessert place but boutique coffee shop with some food. The
+                barista was very friendly and made a great cup. Great morning
+                stop in Cork."
+              </p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"
+              ></span>
+              <h2
+                class="
+                  text-gray-900
+                  font-medium
+                  title-font
+                  tracking-wider
+                  text-sm
+                "
+              >
+                Brooke Cagle
+              </h2>
+              <p class="text-gray-500">Atlanta, Georgia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-gray-600 body-font">
+      <div
+        class="
+          container
+          px-4
+          py-6
+          mx-auto
+          flex
+          items-center
+          sm:flex-row
+          flex-col
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            md:justify-start
+            justify-center
+            text-gray-900
+          "
+        >
+          <img class="h-16" src="./images/logo_coffee.png" alt="logo" />
+          <span class="ml-3 text-xl">CoffeeShop</span>
+        </a>
+        <p
+          class="
+            text-sm text-gray-500
+            sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0
+            mt-4
+          "
+        >
+          © 2021 CoffeeShop —
+          <a
+            href="https://prabhakar9107.github.io/"
+            class="text-gray-600 ml-1"
+            rel="noopener noreferrer"
+            target="_blank"
+            >@prabhakar</a
+          >
+        </p>
+        <span
+          class="
+            inline-flex
+            sm:ml-auto sm:mt-0
+            mt-4
+            justify-center
+            sm:justify-start
+          "
+        >
+          <a class="text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
