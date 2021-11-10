@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PRABHAKAR9107/CoffeeShop">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./images/readme.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CoffeeShop</h3>
