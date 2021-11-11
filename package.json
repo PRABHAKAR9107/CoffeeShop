@@ -11,7 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
   },
   "keywords": [],
   "author": "",
