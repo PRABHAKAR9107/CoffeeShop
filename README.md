@@ -20,7 +20,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -157,10 +157,9 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 8. To run this project using following Command in terminal
-   '''sh
-   npm run dev
 
-   ```
+   ```sh
+   npm run dev
 
    ```
 
@@ -228,8 +227,5 @@ Project Link: [CoffeeShop]](https://github.com/PRABHAKAR9107/CoffeeShop)
 [stars-url]: https://github.com/PRABHAKAR9107/CoffeeShop/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/PRABHAKAR9107/CoffeeShop/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-
-[license-url]:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/prabhakar-kumar-1b3944147/
