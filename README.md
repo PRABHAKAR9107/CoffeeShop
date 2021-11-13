@@ -20,7 +20,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -207,7 +207,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/02panjiyara) - email@example.com
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Twitter][twitter-shield]][twitter-url]
 
 Project Link: [CoffeeShop]](https://github.com/PRABHAKAR9107/CoffeeShop)
 
@@ -228,3 +230,5 @@ Project Link: [CoffeeShop]](https://github.com/PRABHAKAR9107/CoffeeShop)
 [issues-url]: https://github.com/PRABHAKAR9107/CoffeeShop/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/prabhakar-kumar-1b3944147/
+[twitter-shield]:https://img.shields.io/twitter/url?style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2F02panjiyara
+[twitter-url]:https://twitter.com/02panjiyara
