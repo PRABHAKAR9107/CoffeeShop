@@ -1,7 +1,7 @@
 {
   "name": "CoffeeShop",
   "version": "1.0.0",
-  "description": "",
+  "description": "tailwind landing page",
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^10.3.4",
@@ -15,7 +15,7 @@
     "build": "vite build", // build for production
     "preview": "vite preview" // locally preview production build
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["CoffeeShop"],
+  "author": "Prabhakar",
   "license": "ISC"
 }
