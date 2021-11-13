@@ -222,9 +222,9 @@ Project Link: [CoffeeShop]](https://github.com/PRABHAKAR9107/CoffeeShop)
 [contributors-url]: https://github.com/PRABHAKAR9107/CoffeeShop/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/PRABHAKAR9107/CoffeeShop?style=for-the-badge
 [forks-url]: https://github.com/PRABHAKAR9107/CoffeeShop/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/PRABHAKAR9107/CoffeeShop?style=for-the-badge
 [stars-url]: https://github.com/PRABHAKAR9107/CoffeeShop/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/PRABHAKAR9107/COffeeShop?style=for-the-badge
 [issues-url]: https://github.com/PRABHAKAR9107/CoffeeShop/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/prabhakar-kumar-1b3944147/
