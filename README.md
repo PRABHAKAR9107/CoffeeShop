@@ -151,10 +151,6 @@ _Below is an example of how you can instruct your audience on installing and set
    }
    ```
 
-   ```
-
-   ```
-
 8. To run this project using following Command in terminal
 
    ```sh
