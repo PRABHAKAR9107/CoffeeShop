@@ -159,7 +159,6 @@ _Below is an example of how you can instruct your audience on installing and set
 
    ```sh
    npm run dev
-
    ```
 
 You can also refer to the [Documentation](https://tailwindcss.com/docs/installation)
